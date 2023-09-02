@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="index.css" >
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+<div id="header">
+        <div class="container">
+            <nav> 
+                <img src= "images/one.png" alt="img" class="logo"/>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <div>
+                <P>Web-Developer</P>
+                <h1>Hi, I'm <span>Omkar</span><br/> Tupkari from India.</h1>
+            </div>
+                <img src="images/om.jpg" alt="img"/>            
+            </div>
+        </div>
+</div>
+<!-------------About starts---------------->
+<div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/new.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello!  myself Omkar Kailas Tupkari. I completed my degree of Bachelor of Computer Science in<br> Dr. Babasaheb Ambedkar Marathwada University, Aurangabad. In these course I learn lot of things<br>about computer in which I want to do career in WebDevelopment as WebDeveloper.   </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tabs" id="skills">
+                            <ul>
+                                <li><span>Html5</span></li>
+                                <li><span>Css3</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>React-js</span></li>
+                                <li><span>Node-js</span></li>
+                                <li><span>Express-js</span></li>
+                                <li><span>MySql Database</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-current</span> BCS from SBES college of science, Aurangabad</li>
+                                <li><span>2014-21</span> Secondary and Higher secondary education from JNV Aurangabad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+<!------------- Services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Serivces</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h2>Frontend Development</h2>
+                <p>I am specially frontend WebDeveloper for passion of building better user interface.Also provide all services about frontend Development and userInterface.</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h2>Backend Development</h2>
+                <p>I am Fullstack WebDeveloper so also provide all services about backend Development and Database management system.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h2>Fullstack Development</h2>
+                <p>I am Fullstack WebDeveloper for passion of building better user friendly websites. Also provide all services about frontend Development as well backend development.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Portfolio------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/shop.jpg" alt="img" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>These app is clone of instagram app which is build by using technologies like Html5,Css3 and Javascript.</p>
+                     <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+               <img src="images/shop.jpg" alt="img" >
+               <div class="layer">
+                    <h3>Online shopping app</h3>
+                    <p>These website is used to buy the products online  which is build by using technologies like React-js.</p>
+                     <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div> 
+            </div>
+            <div class="work">
+                <img src="images/music.jpg" alt="img" >
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>These app is clone of instagram app which is build by using technologies like Html5,Css3 and Javascript.</p>
+                     <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div> 
+            </div>
+        </div>
+   <a href="#" class="btn" >See More</a>
+    </div>
+</div>
+<!--------------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fas fa-paper-plane"></i>tupkariomkar30@gmail.com</P>
+                <p><i class="fas fa-phone-square-alt"></i>8010444250</p>
+                <div class="social-icons">
+                  <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                  <a href=""><i class="fab fa-github" aria-hidden="true"></i></a>
+                  <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  <a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                </div>
+                <a href="files/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required/>
+                  <input type="email" name="Email" placeholder="Your Email" required/>
+                  <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright All rights are reserved.</p>
+    </div>
+</div>
+<script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+  
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tabs');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tabs');
+        }
+</script>
+<script>
+    const sidemenu = document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right='0';
+    }
+    
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwdqo0myslXSWkyfJrkCwF-hzUA-e41o4cdgwRy5ZnygGQgHOlaNhSKZdKhmjNmO7d2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg');
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= `Message sent successfully`;
+            setTimeout(function(){
+                msg.innerHTML = '';
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
